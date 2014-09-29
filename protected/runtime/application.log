@@ -1,0 +1,8 @@
+2014/06/10 15:47:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/testdrive/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/testdrive/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/testdrive/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/testdrive/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=admin
+---
