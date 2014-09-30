@@ -82,6 +82,32 @@ div.form span.required
 	color: red;
 }
 
+div.form .errorSummary ul
+{
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+div.wide.form label
+{
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	text-align: right;
+	width: 100px;
+}
+
+div.wide.form .row
+{
+	clear: left;
+}
+
+div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
+{
+	clear: left;
+	padding-left: 110px;
+}
+
 div.form div.error label:first-child,
 div.form label.error,
 div.form span.error
@@ -135,30 +161,4 @@ div.form .errorSummary p
 {
 	margin: 0;
 	padding: 5px;
-}
-
-div.form .errorSummary ul
-{
-	margin: 0;
-	padding: 0 0 0 20px;
-}
-
-div.wide.form label
-{
-	float: left;
-	margin-right: 10px;
-	position: relative;
-	text-align: right;
-	width: 100px;
-}
-
-div.wide.form .row
-{
-	clear: left;
-}
-
-div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
-{
-	clear: left;
-	padding-left: 110px;
 }
